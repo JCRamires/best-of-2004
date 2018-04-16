@@ -247,6 +247,16 @@
 		<img id="img62" src="./imagens/pixel.png" width="200" height="80" style="position:absolute;top:656px;left:806px">
 	</a>
 	<img id="img63" src="./imagens/pixel.png" width="220" style="position:absolute;top:390px;left:1040px">
+	 <script src="js/html2canvas.js"></script> 
+    <script> 
+   
+
+html2canvas(document.querySelector("#capture")).then(canvas => {
+    document.body.appendChild(canvas)
+});
+
+
+    </script> 
 </body>
 
 </html>
